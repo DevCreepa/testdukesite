@@ -30,7 +30,7 @@ body {
 	font-family: montserrat, sans-serif;
 	margin: 0;
 	padding: 0;
-	min-height: 200vh;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -85,8 +85,8 @@ body {
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #252627 ;
+    color: white;
     cursor: pointer;
     padding-bottom: 18px;
     padding-top: 18px;
@@ -99,12 +99,13 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
     margin-left: 7%;
-    
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 button.caccordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #2e2e31;
+    color: white;
     cursor: pointer;
     padding-bottom: 18px;
     padding-top: 18px;
@@ -117,16 +118,18 @@ button.caccordion {
     font-size: 15px;
     transition: 0.4s;
     margin-left: 7%;
-    width: 84%
+    width: 84%;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: #353738 ;
 }
 
 button.caccordion.active, button.caccordion:hover {
-    background-color: #ddd;
+    background-color: #3d3d42 ;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -138,32 +141,37 @@ div.panel {
     transition: 0.6s ease-in-out;
     opacity: 0;
     color: black;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    height: auto;
 }
 
 div.cpanel {
     padding-left: 18px;
-    background-color: white;
+    background-color: #3d3d42 ;
     max-height: 0;
     overflow:auto;
     transition: 0.6s ease-in-out;
     opacity: 0;
-    color: black;
+    color: white;
     width: 83%;
     height: 85px;
     background-size: 81%;
-    margin-left: 7%;             
+    margin-left: 7%;
+    height: auto;
+    border-bottom: #333 2px solid
 }
 
 /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
 div.panel.show {
     opacity: 1;
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+    height: auto;
 }
 
 div.cpanel.show {
     opacity: 1;
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+    height: auto;
 }
 
 button.accordion:after {
