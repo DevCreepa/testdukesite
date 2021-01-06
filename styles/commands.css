@@ -104,7 +104,7 @@ button.accordion {
     height: 40px auto;
 }
 
-button .caccordion {
+button.caccordion {
     background-color: #2e2e31;
     color: white;
     cursor: pointer;
