@@ -466,6 +466,69 @@ a {
 }
 
 
+@media only screen and (max-width: 430px) {
+  .header .logo {
+      float: none;
+      padding-left: 13%;
+      text-align: center;
+      
+  }
+    
+    .header .logo img {
+           height: 70%;
+        
+    }
+    
+    .header {
+        height: 100px;
+    }
+    
+    .header-right {
+        padding-right: 2%;
+        text-align: center;
+    }
+    
+    .header a {
+        font-size: 19px;
+        border-radius: 1px;
+        padding: 5px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 365px) {
+  .header .logo {
+      float: none;
+      padding-left: 9%;
+      text-align: center;
+      
+  }
+    
+    .header .logo img {
+           height: 60%;
+        
+    }
+    
+    .header {
+        height: 125px;
+    }
+    
+    .header-right {
+        padding-right: 2%;
+        text-align: center;
+    }
+    
+    .header a {
+        font-size: 25px;
+        border-radius: 1px;
+        padding: 5px;
+        text-align: center;
+    }
+    
+}
+
+
 
 
 
