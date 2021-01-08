@@ -101,7 +101,7 @@ button.accordion {
     margin-left: 7%;
     font-weight: 600;
     font-size: 1rem;
-    height: 40px auto;
+    height: 80px auto;
 }
 
 button.caccordion {
@@ -131,7 +131,7 @@ button.accordion.active, button.accordion:hover {
 }
 
 button.caccordion.active, button.caccordion:hover {
-    background-color: #3d3d42 ;
+    background-color: #3a3a40 ;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -144,7 +144,7 @@ button.caccordion.active, button.caccordion:hover {
     opacity: 0;
     color: black;
     margin-bottom: 10px;
-    height: 40px auto;
+    height: 80px auto;
 }
 
 .cpanel {
@@ -170,7 +170,7 @@ button.caccordion.active, button.caccordion:hover {
 /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
 div.panel.show {
     opacity: 1;
-    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+    max-height: 5000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
     height: auto;
 }
 
@@ -209,7 +209,7 @@ code {
     color: lightgray;
     padding: 5px;
     border-radius: 6px;
-    border: 2px solid black;
+    border: 0.5px solid black;
      
     
 }
