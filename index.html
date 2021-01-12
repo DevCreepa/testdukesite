@@ -12,6 +12,7 @@
             crossorigin="anonymous"
         />
 	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+    	<link href="styles/utilities.css" rel="stylesheet" type="text/css" />
 
     	<meta charset="UTF-8">
 	<meta data-n-head="ssr" data-hid="description" name="description" content="Duke is an extraordinary bot to have on your Discord Server! He brings fun and useful commands to the table, No other discord bot is needed!">
@@ -28,7 +29,9 @@
 
 
 <div class="header">
-         <a class="logo" href="index.html"> <img src="images/no_background_duke.png" alt="Duke Bot"></a>
+<!--         <a class="logo" href="index.html"> <img src="images/no_background_duke.png" alt="Duke Bot"></a>-->
+    
+    <a class="logo"> <img src="images/no_background_duke.png" alt="Duke Bot"></a>
 	<div class="header-right">
 	  <a class="active" href="index.html">Home</a>
           <a class="hover" href="commands.html">Commands</a>
@@ -38,9 +41,7 @@
         </div>
   </div>
 
-
-    
-    
+<body>
     <div class='outer'>
 		<div class='wrapper'>
 			<div class='element'>
@@ -50,15 +51,73 @@
                         	Fun, Info, Actions, Leveling, Music, Search, and Customizable Settings
                                 
                                 <div class=button>               
-                                     <a class="btn btn-blurple" href="https://discord.com/oauth2/authorize?client_id=678124077654867978&permissions=8&scope=bot" target="blank"><i class="fab fa-discord fa-2x"></i> Add to Discord</a>
+                                     <a class="btn btn-blurple" href="https://discord.com/oauth2/authorize?client_id=678124077654867978&permissions=8&scope=bot" target="blank"><i class="fab fa-discord fa-1x"></i> Add to Discord</a>
+                                    <a class="btn btn-button" href="#features"><i class="fas fa-caret-down fa-2x"></i> Duke's Features</a>
                                 </div>
+                                
 			</div>
 		</div>
 	</div>
 	</div>
     
-    
+        
+        
+            
+        
+           <!-- Features -->
+    <div id='features' class='features'>
+        <div class='container grid'>
+            <div>
+                <h3>Entertainment</h3>
+                <p>With Disconnects entertainment there is never a dull moment. Even with it's basic start Disconnect is
+                    coming in strong with many new features lined up to kickstart activity in your server! Wether it be
+                    animals, economy, music, or even just leveling Disconnect will have it under control!</p>
+            </div>
+            <img src='images/entertainment.png' alt='rock paper siccors game loss'>
+        </div>
+    </div>
+
+    <div class='features'>
+        <div class='container grid'>
+            <img class='desktop' src='images/roleplay.png' alt='Cytech has booped Creepa!'>
+            <div>
+                <h3>Roleplay</h3>
+                <p>Express your feeling towards someone. Want to punch them or maybe even kiss them. Express your
+                    emotions toward someone using Disconnects very simple roleplay commands. Wether the emotion is
+                    celebration, happyness, anger, or sadness you can express it all.</p>
+            </div>
+            <img class='mobile' src='images/roleplay.png' alt='Cytech has booped Creepa!'>
+        </div>
+    </div>
+
+    <div class='features'>
+        <div class='container grid'>
+            <div>
+                <h3>Moderation</h3>
+                <p>Disconnect comes with a simple but efficient moderation system. Yes the current system is pretty bare
+                    bones only featuring the basic Kick, Ban, Purge, and Set-Prefix. But for many guilds it's perfect!
+                    But because of how simple the current moderation is it can be easily expanded with some great and
+                    unique features, some of which are already in development!</p>
+            </div>
+            <img src='images/moderation.png' alt='You may not ban the owner of the guild.'>
+        </div>
+    </div>
+
+        
     
 </body>
 
 </html>
+
+
+<script>
+let counter = 0;
+document.querySelector('logo').addEventListener('click', e => {
+  ++counter;
+  if (counter === 5) { //change to any number you want
+    //do something
+    console.log('clicked 5 times');
+  }
+});
+
+</script>
