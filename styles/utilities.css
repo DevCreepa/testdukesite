@@ -37,7 +37,7 @@ pre {
 /* Grid */
 .grid {
 	height: 100%;
-	display: grid;
+	display: grid; 
 	grid-gap: 20px;
 	align-items: center;
 	justify-content: center;

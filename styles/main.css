@@ -155,7 +155,7 @@ h3 {
 	margin-top: 135px;
 	align-content: center;
     text-align: center;
-    padding-bottom: 500px
+    padding-bottom: 520px
 }
 .element {
 	display: grid;
@@ -277,7 +277,7 @@ a {
 .features img {
 	border-radius: 5px;
 	justify-self: center;
-	width: 75%;
+	width: 100%;
 }
 
 .mobile {
