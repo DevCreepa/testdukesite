@@ -23,6 +23,11 @@
   background-color: #f8a33c;
 }
 
+html {
+  scroll-behavior: smooth;
+ }
+ 
+
 
 body {
 	background: #424242;
@@ -163,10 +168,12 @@ h3 {
 	grid-template-rows: auto 1fr;
 	grid-template-columns: auto 1fr;
 	grid-gap: 10px;
+
 }
 
 .element .desc {
 	grid-area: dsc;
+    
 }
 
 ul {
